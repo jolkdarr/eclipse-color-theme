@@ -34,6 +34,11 @@ TODO, diagrama e falar sobre os packages
 
 ##Process View (Rita)
 
+//TODO, diagramas
+
+In this topic we consider the Eclipse as the system because the Eclipse Color theme is just a pluggin and the approach of this view to the plugin is quite simple. 
+As we said before, this view show the different processes of the system as well as their interactions in run-time. The Eclipse text editor allows the execution of a quite diverse set of activities, being necessary to implement a very diverse set of features that operate directly or indirectly on the text buffer to edit. In this report, we opted to illustrate the basic handling of text buffers and clipboards, and the operations that allows to save and open text files and buffers.
+
 
 ##Contribuition of the team members
 
