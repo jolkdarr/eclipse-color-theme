@@ -8,22 +8,31 @@ Team and contact:
 
 ##Introduction
 
-
 This report aims to explain the Eclipse Color Theme architecture according to 4 + 1 view model of software architecture.
-We begin to make an approach to Eclipse Color Theme architecture as well as to the model noted above. In the next points we approach a little more specific in respect to Logical view, Development view, Deployment view and Process view, with the help of illustrative diagrams.
-
-##Eclipse Color Theme Architecture
+We begin to make an approach to  4 + 1 view model of software architecture and in the next points we approach a little more specific in respect to Logical view, Development view, Deployment view and Process view, with the help of illustrative diagrams.
 
 ##4+1 Architectural View Model
 
-##Logical View
+The 4+1 Architectural View Model was designed to describe the architecture of the software-intensive systems based on the use of multiple views. This views are used to describe the system from the viewpoint of different stakeholders. The four views of the model are logical, development, process and deployment view. The "plus one" view are the use cases that were approached in the second report.
+
+The logical view is concerned with the functionality that the system provides to end-users, and is represented with class diagram, activity diagram and state diagram. 
+
+The development, represented with the package diagram, view illustrate the system from a programmer's perspective and is concerned with the software manegement. 
+
+The process view, illustrated with the activity diagran, deals with the dynamic aspects of the system, explains the system processes and how they communicate, and focuses on the runtime behavior of the system. 
+
+At last, the deployment view despicts the system from a system engineer's point of view. It's concerned with the topology of the software components on the physical layer, as well as the physical connections between these components. This view is represented with the deployment diagram.
+
+
+##Logical View (Nuno)
+
 TODO, diagrama e falar sobre os packages
 
-##Development View
+##Development View (Carolina)
 
-##Deployment View
+##Deployment View (Paulo)
 
-##Process View
+##Process View (Rita)
 
 
 ##Contribuition of the team members
