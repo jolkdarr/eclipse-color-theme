@@ -19,7 +19,7 @@ The logical view is concerned with the functionality that the system provides to
 
 The development, represented with the package diagram, view illustrate the system from a programmer's perspective and is concerned with the software manegement. 
 
-The process view, illustrated with the activity diagran, deals with the dynamic aspects of the system, explains the system processes and how they communicate, and focuses on the runtime behavior of the system. 
+The process view, illustrated with the activity diagram, deals with the dynamic aspects of the system, explains the system processes and how they communicate, and focuses on the runtime behavior of the system. 
 
 At last, the deployment view despicts the system from a system engineer's point of view. It's concerned with the topology of the software components on the physical layer, as well as the physical connections between these components. This view is represented with the deployment diagram.
 
