@@ -24,9 +24,25 @@ The process view, illustrated with the activity diagram, deals with the dynamic 
 At last, the deployment view despicts the system from a system engineer's point of view. It's concerned with the topology of the software components on the physical layer, as well as the physical connections between these components. This view is represented with the deployment diagram.
 
 
-##Logical View (Nuno)
+##Logical View
 
-TODO, diagrama e falar sobre os packages
+Below we can see the package diagram representing the logic view of the plugin.
+
+![LogicView](eclipse-color-theme/ESOF-docs/Resources/LogicalView.jpg)
+
+Eclipse Color Theme plugin is divided in three main packages.
+
+**Themes package**: It has all the themes that comes bundled with the plugin.
+
+**Mappings** package: It contains all the mappings for the multiple editors supported by this plugin.
+
+**Eclipsecolortheme** package: This package is the core of the plugin, it applies the selected theme to eclipse. It has two more packages, mapper package and preferences package.
+    
+   * **Preferences** package handles the preference page of the plugin.
+
+   * **Mapper** package handles the multiple mappings of the mappings package.
+
+
 
 ##Development View (Carolina)
 
