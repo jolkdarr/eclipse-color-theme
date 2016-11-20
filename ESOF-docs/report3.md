@@ -32,7 +32,7 @@ Below we can see the package diagram representing the logic view of the plugin.
 
 Eclipse Color Theme plugin is divided in three main packages.
 
-**Themes package**: It has all the themes that comes bundled with the plugin.
+**Themes** package: It has all the themes that comes bundled with the plugin.
 
 **Mappings** package: It contains all the mappings for the multiple editors supported by this plugin.
 
