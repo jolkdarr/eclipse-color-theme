@@ -30,12 +30,12 @@ TODO, diagrama e falar sobre os packages
 
 ##Development View (Carolina)
 
-##Deployment View (Paulo)
+##Deployment View
 In this topic we show the deployment diagram that in our case is a really simple diagram  , only made of one device, the user computer that runs Eclipse in it (execution environment) so the user can use Eclipse Color theme, otherwise he wouldn't be able to run it, since it is an Eclipse only plugin.
 
 ![DeploymentView](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/Deployment.jpg)
 
-##Process View (Rita)
+##Process View 
 
 In this topic we consider the Eclipse as the system because the Eclipse Color theme is just a pluggin and the approach of this view to the plugin is quite simple. 
 As we said before, this view show the different processes of the system as well as their interactions in run-time. The Eclipse text editor allows the execution of a quite diverse set of activities, being necessary to implement a very diverse set of features that operate directly or indirectly on the text buffer to edit. In this report, we opted to illustrate the basic handling of text buffers and clipboards, and the operations that allows to save and open text files and buffers.
