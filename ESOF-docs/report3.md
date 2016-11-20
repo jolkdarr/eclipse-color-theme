@@ -68,20 +68,4 @@ The next diagram illustrates the basic handling of text buffers and clipboards.
 
 ##Contribuition of the team members
 
-
-
-
-Introduction to Software Architecture and the 4+1 Architectural View Model; What are the architectural patterns followed by your project (if it doesn't follow any well known one, discuss whether it would be best to do so).
-Grade: 4pts
-
-Logical View
-Grade: 4pts
-
-Development View
-Grade: 4pts
-
-Deployment View
-Grade: 4 pts
-
-Process View
-Grade: 4 pts
+Although the work was more distributed than in the previous report, we feel that the variation between different people and their work doesn't warrant an unalike division of the contribution, therefore, we also apply 25% to each individual member of the team.
