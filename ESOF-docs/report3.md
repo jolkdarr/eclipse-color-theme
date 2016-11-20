@@ -31,6 +31,9 @@ TODO, diagrama e falar sobre os packages
 ##Development View (Carolina)
 
 ##Deployment View (Paulo)
+In this topic we show the deployment diagram that in our case is a really simple diagram  , only made of one device, the user computer that runs Eclipse in it (execution environment) so the user can use Eclipse Color theme, otherwise he wouldn't be able to run it, since it is an Eclipse only plugin.
+
+![DeploymentView](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/Deployment.jpg)
 
 ##Process View (Rita)
 
