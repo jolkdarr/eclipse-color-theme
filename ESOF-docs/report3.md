@@ -28,7 +28,7 @@ At last, the deployment view despicts the system from a system engineer's point 
 
 Below we can see the package diagram representing the logic view of the plugin.
 
-![LogicView](eclipse-color-theme/ESOF-docs/Resources/LogicalView.jpg)
+![LogicView](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/LogicalView.png)
 
 Eclipse Color Theme plugin is divided in three main packages.
 
@@ -41,6 +41,7 @@ Eclipse Color Theme plugin is divided in three main packages.
    * **Preferences** package handles the preference page of the plugin.
 
    * **Mapper** package handles the multiple mappings of the mappings package.
+
 
 
 
