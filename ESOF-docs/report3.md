@@ -47,6 +47,8 @@ Eclipse Color Theme plugin is divided in three main packages.
 
 ##Development View 
 
+Mapper gets themes from ColorTheme to map them in Eclipse's preferences. This mapping is then communicated to Activator. Preference initializes the plugin preferences, communicating them to Activator.
+
 ![DevelopmentView](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/DevelopmentView.PNG)
 
 ##Deployment View
