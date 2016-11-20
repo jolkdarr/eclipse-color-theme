@@ -47,7 +47,7 @@ Eclipse Color Theme plugin is divided in three main packages.
 
 ##Development View 
 
-![DevelopmentView](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/DevelopmentView.png)
+![DevelopmentView](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/DevelopmentView.PNG)
 
 ##Deployment View
 In this topic we show the deployment diagram that in our case is a really simple diagram  , only made of one device, the user computer that runs Eclipse in it (execution environment) so the user can use Eclipse Color theme, otherwise he wouldn't be able to run it, since it is an Eclipse only plugin.
