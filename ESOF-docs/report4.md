@@ -29,6 +29,13 @@ Eclipse Color Theme features a code organization and object-oriented programming
 
 ###Observability
 
+The Eclipse Color Theme tests are run in Eclipse according to the tests project of the plugin .
+The distributed nature of open-source projects seems to require that not only the observability of the test results on the changes made by each programmer be guaranteed, but also that it's possible to analyze the results of the tests run on code developed by third parties and is not yet integrated into the project code base. However it is something that this project still does not dominate totally being that the tests are mainly realized by the project owners.
+
+###Isolability
+
+
+
 
 Discuss Software Testability and Reviews: controllability, observability, isolateability, separation of concerns, understandability, heterogeneity.  
 Grade: 6pts
