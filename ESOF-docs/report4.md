@@ -34,6 +34,16 @@ The distributed nature of open-source projects seems to require that not only th
 
 ###Isolability
 
+The Isolability of the different components of Eclipse Color Theme is evident. Each component works by itself, there being separation between themes and mapping editors. So your individual testability in terms of unit testing is effective because it can be considered that the project is below a black box model where external changes (including changes to input level) don't influence the test results.
+To enable testing the plugin, another test project is being used where unit tests are being developed and that allows the developer to test his code in a completely isolated way.
+
+###Separation of responsibilities from each component
+
+In the context of validation and verification of software requirements a strict separation of components is highly advantageous from the point of view of the ease of definition of the test definition that is exhaustive as to the behavior of each functionality, testing it not only correctly but also integrally. A feature that takes on too many responsibilities or responsibilities from very different forums is not only more susceptible to the introduction of crashes when changed, but also more difficult to test and validate.
+The Eclipse Color Theme architecture is, as already mentioned, package based, which are responsible for implementing various components in the context of the fully functional plugin. Thus Eclipse Color Theme presents an external structure of highly segmented and clearly defined responsibilities, reserving for itself only the role of coordinator of the various core packages to the correct functioning of the plugin.
+Analyzing the internal structure of Eclipse Color Theme, it is observed that it explicitly separates its functionality by several packages. The separation of responsibilities is ensured quite strictly, where the themes are isolated from the mapping editors.
+
+
 
 
 
