@@ -13,19 +13,19 @@ Team and contact:
 
 ##Introduction
 
-The goal of this report is to analyze the processes of verification and validation (V&V) followed in the development of Eclipse Color Theme, with the description of some features of this project witch concern the applicationof these processes.
+The goal of this report is to analyze the processes of verification and validation (V&V) followed in the development of Eclipse Color Theme, with the description of some features of this project which concern the application of these processes.
 First of all, we explore the degree of software testability, analysing the controllability of states of the components tested, the observability of the results and the insulation of the components, as well as the degree of separation of functionalities, the intelligibility of the components and the heterogeneity of the technologies used.
-In a second step, we present some relevant statistics related with the verification and validation of software in the Eclipse Color Theme.
-Finally, will be presentes the results of the exercise, realized by the authors of this report, that consist in the selection of a bug report from the list of issues of the project, the design of test cases for it's reproduction and the attempt of correction of the error.
+In a second step, we present some relevant statistics related to the verification and validation of software in Eclipse Color Theme.
+Finally, will be presenting the results of the exercise, realized by the authors of this report, that consists in the selection of a bug report from the list of issues of the project, the design of test cases for its reproduction and the attempt of correction of the error.
 
 ##Software Testability
 
-Concerning testability, Eclipse Color Theme seems to be weel struture. The arquitecture of the plugin, based packages, introduces a modularity that makes it simple and efficient to separete the tests to run, while it's base, the Eclipse Color Theme package, allows the cohesion and communication between the diferrent components, so you can also test communication aspects in different modules easily.
-In the following subsections will be analyzed in more detail the various aspects that allow to evaluate the characteristics of testability.
+Concerning testability, Eclipse Color Theme seems to be well strutured. The arquitecture of the plugin-based packages introduces a modularity that makes it simple and efficient to separete the tests to run, while its base, the Eclipse Color Theme package, allows the cohesion and communication between the different components, so you can also test communication aspects in different modules easily.
+In the following subsections the various aspects that allow evaluation of the characteristics of testability will be analyzed in more detail.
 
 ###Controllability
 
-Eclipse Color Theme features a code organization and object-oriented programming paradigm, drawing on the capabilities that java confers in this area. The programming language used provides the appropriate tools to allow the complete and controlled manipulation of both the behavior of the instantiated objects and the value of the data stored in them. The unit tests tend to be oriented to the study of the behavior of the packages, and it's context is abstracted using several techniques, which will be discussed in greater depth in the section on Isolability It is therefore possible to understand that the controllability characteristics of the Eclipse Color Theme components fit particularly well for performing unit tests.
+Eclipse Color Theme features a code organization and object-oriented programming paradigm, drawing on the capabilities that java confers in this area. The programming language used provides the appropriate tools to allow the complete and controlled manipulation of both the behavior of the instantiated objects and the value of the data stored in them. The unit tests tend to be oriented to the study of the behavior of the packages, and its context is abstracted using several techniques, which will be discussed in greater depth in the section on Isolability. It is therefore possible to understand that the controllability characteristics of the Eclipse Color Theme components fit particularly well for performing unit tests.
 
 ###Observability
 
@@ -34,7 +34,7 @@ The distributed nature of open-source projects seems to require that not only th
 
 ###Isolability
 
-The Isolability of the different components of Eclipse Color Theme is evident. Each component works by itself, there being separation between themes and mapping editors. So your individual testability in terms of unit testing is effective because it can be considered that the project is below a black box model where external changes (including changes to input level) don't influence the test results.
+The Isolability of the different components of Eclipse Color Theme is evident. Each component works by itself, with separation between themes and mapping editors. So your individual testability in terms of unit testing is effective because it can be considered that the project is below a black box model where external changes (including changes to input level) don't influence the test results.
 To enable testing the plugin, another test project is being used where unit tests are being developed and that allows the developer to test his code in a completely isolated way.
 
 ###Separation of responsibilities from each component
@@ -76,7 +76,7 @@ This issue depicts a bug where the color bracket is ignored, and it is this bug 
 
 ##Conclusion
 
-//TODO
+Although we are still waiting for the response of the developers, we feel as though we learned a lot from studying this project and its ramifications on Verification and Validation. 
 
 ##Contribuition of the team members
 
