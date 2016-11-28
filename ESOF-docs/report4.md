@@ -16,7 +16,7 @@ Team and contact:
 The goal of this report is to analyze the processes of verification and validation (V&V) followed in the development of Eclipse Color Theme, with the description of some features of this project witch concern the applicationof these processes.
 First of all, we explore the degree of software testability, analysing the controllability of states of the components tested, the observability of the results and the insulation of the components, as well as the degree of separation of functionalities, the intelligibility of the components and the heterogeneity of the technologies used.
 In a second step, we present some relevant statistics related with the verification and validation of software in the Eclipse Color Theme.
-Finally, will be presentes the results of the exercise, realized by the authors of this report, that consist in the selection of a bug report from the list of issues of the project, the design of test cases for it's reproduction and the effective correction of the error.
+Finally, will be presentes the results of the exercise, realized by the authors of this report, that consist in the selection of a bug report from the list of issues of the project, the design of test cases for it's reproduction and the attempt of correction of the error.
 
 ##Software Testability
 
@@ -72,12 +72,10 @@ Eclipse Color Theme has a list of issues that reveal project bugs as well as new
 Currently, Eclipse Color Theme has 105 issues open and 77 issues closed. Of these open issues, what seems most appealing is the issue [Bracket color ignored] (https://github.com/eclipse-color-theme/eclipse-color-theme/issues/108).
 This issue depicts a bug where the color bracket is ignored, and it is this bug that we intend to correct. However we couldn't replicate the bug once it worked right. So we try to get in touch with the developers asking for more information and we are still waiting for an answer.
 
+##Conclusion
 
+//TODO
 
-Discuss Software Testability and Reviews: controllability, observability, isolateability, separation of concerns, understandability, heterogeneity.  
-Grade: 6pts
-Report Test Statistics and analytics:  e.g., number of test cases, percentage of coverage, number of flaky tests, etc. (see links of projects in moodle for inspiration)
-Grade: 8pts
-Identify a new bug and/or correct a bug
-Grade: 6pts (identification: 4 points; correction: 2 points)
-You think your project has no bugs?! Then, you do need to have a compelling story for us to credit you 6pts! 
+##Contribuition of the team members
+
+Although the work was more distributed than in the previous report, we feel that the variation between different people and their work doesn't warrant an unalike division of the contribution, therefore, we also apply 25% to each individual member of the team.
