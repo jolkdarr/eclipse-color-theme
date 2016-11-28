@@ -72,6 +72,8 @@ Eclipse Color Theme has a list of issues that reveal project bugs as well as new
 Currently, Eclipse Color Theme has 105 issues open and 77 issues closed. Of these open issues, what seems most appealing is the issue [Bracket color ignored] (https://github.com/eclipse-color-theme/eclipse-color-theme/issues/108).
 This issue depicts a bug where the color bracket is ignored, and it is this bug that we intend to correct. However we couldn't replicate the bug once it worked right. So we try to get in touch with the developers asking for more information and we are still waiting for an answer.
 
+![Bug](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/bug.png)
+
 ##Conclusion
 
 //TODO
