@@ -50,6 +50,22 @@ The architecture of Eclipse Color Theme is quite simple, resulting in it's caref
 
 ###Heterogeneity
 
+In the Eclipse Color Theme repository another test project is available. These tests are mostly unit tests.
+Eclipse Color Theme is a very heterogeneous plugin from a technological point of view, which is clearly reflected in your suite of tests. The definition of specifications is done in Java.
+
+##Test Statistics and analytics
+
+As already mentioned, Eclipse Color Theme provides another test project in it's repository where unit tests are performed. At present there seem to be 6 different unit tests and the tests so far developed are:
+
+* ColorTest
+* ColorThemeMappingTest
+* ColorThemeSemanticHighlightingMappingTest
+* ColorThemeSettingTest
+* ColorThemeTest
+* MockEclipsePreferences
+
+It should also be noted that these tests are performed in Java.
+
 
 
 
