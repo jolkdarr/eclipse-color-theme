@@ -1,6 +1,8 @@
 #NOTA > https://github.com/eclipse-color-theme/eclipse-color-theme/issues/108
 Não conseguimos replicar o bug, funcionava direito, pedi mais informação e estou à espera de resposta.
 
+no bug https://github.com/eclipse-color-theme/eclipse-color-theme/issues/95
+os valores de bold são passados corretamente, o problema supostamente estará no "Interface IEclipsePreferences", que poderá não ser compativel com as ultimas versões do eclipse ou talvez tenham de mudar o plugin para usar uma classe mais recente que mexa nas preferences...
 
 
 #Verification and Validation
