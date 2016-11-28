@@ -1,5 +1,5 @@
 #NOTA > https://github.com/eclipse-color-theme/eclipse-color-theme/issues/108
-
+Não conseguimos replicar o bug, funcionava direito, pedi mais informação e estou à espera de resposta.
 
 
 
