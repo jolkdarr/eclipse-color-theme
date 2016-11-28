@@ -66,6 +66,11 @@ As already mentioned, Eclipse Color Theme provides another test project in it's 
 
 It should also be noted that these tests are performed in Java.
 
+##Bugs
+
+Eclipse Color Theme has a list of issues that reveal project bugs as well as new ideas to develop. In fact, in the documentation they advise to open a new issue, if we have a new idea, or if we want to contribute and we have no idea, to see the issues that are still open and start working.
+Currently, Eclipse Color Theme has 105 issues open and 77 issues closed. Of these open issues, what seems most appealing is the issue [Bracket color ignored] (https://github.com/eclipse-color-theme/eclipse-color-theme/issues/108).
+This issue depicts a bug where the color bracket is ignored, and it is this bug that we intend to correct. However we couldn't replicate the bug once it worked right. So we try to get in touch with the developers asking for more information and we are still waiting for an answer.
 
 
 
