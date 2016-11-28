@@ -43,6 +43,12 @@ In the context of validation and verification of software requirements a strict 
 The Eclipse Color Theme architecture is, as already mentioned, package based, which are responsible for implementing various components in the context of the fully functional plugin. Thus Eclipse Color Theme presents an external structure of highly segmented and clearly defined responsibilities, reserving for itself only the role of coordinator of the various core packages to the correct functioning of the plugin.
 Analyzing the internal structure of Eclipse Color Theme, it is observed that it explicitly separates its functionality by several packages. The separation of responsibilities is ensured quite strictly, where the themes are isolated from the mapping editors.
 
+###Understanding
+
+Despite it's open-source nature, which would imply that the documentation was explicit and concise so that it could be quickly consulted and apprehended by as many people as possible, Eclipse Color Theme isn't well documented. The information obtained is confusing and it is difficult to get in touch with the project owners for more information.
+The architecture of Eclipse Color Theme is quite simple, resulting in it's careful separation of responsibilities into a set of packages whose names and behaviors work well for a person to understand the terminology to which the package refers. Having said this, the lack of documentation is outweighed by the ease in understanding the code, allowed to be studied by an adequate understanding of each component.
+
+###Heterogeneity
 
 
 
