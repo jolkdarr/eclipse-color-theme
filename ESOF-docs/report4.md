@@ -59,7 +59,7 @@ Eclipse Color Theme is a very heterogeneous plugin from a technological point of
 
 As already mentioned, Eclipse Color Theme provides another test project in it's repository where unit tests are performed. At present there are 21 different unit tests, covering, as shown below, just 13.9% of the code.
 
-![Coverage](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/TODO)
+![Coverage](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/coverage.png)
 
 
 It should also be noted that these tests are performed in Java.
