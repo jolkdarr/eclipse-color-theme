@@ -1,10 +1,3 @@
-#NOTA > https://github.com/eclipse-color-theme/eclipse-color-theme/issues/108
-Não conseguimos replicar o bug, funcionava direito, pedi mais informação e estou à espera de resposta.
-
-no bug https://github.com/eclipse-color-theme/eclipse-color-theme/issues/95
-os valores de bold são passados corretamente, o problema supostamente estará no "Interface IEclipsePreferences", que poderá não ser compativel com as ultimas versões do eclipse ou talvez tenham de mudar o plugin para usar uma classe mais recente que mexa nas preferences...
-
-
 #Verification and Validation
 ![Eclipse-Color-Theme](http://p2.pdt-extensions.org/images/colorthemes/screenshot.png)
 Team and contact:
@@ -71,6 +64,9 @@ Currently, Eclipse Color Theme has 105 issues open and 77 issues closed. Of thes
 This issue depicts a bug where the color bracket is ignored, and it is this bug that we intend to correct. However we couldn't replicate the bug once it worked right. So we try to get in touch with the developers asking for more information and we are still waiting for an answer.
 
 ![Bug](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/bug.png)
+
+
+While waiting for more information, we tried to fix [Always Bold issue] (https://github.com/eclipse-color-theme/eclipse-color-theme/issues/95). While debugging we didn't find a problem with the code, so we came to the conclusion it's a compatibility problem and that probably "Interface IEclipsePreferences" class do not fully work anymore with the more recent builds of eclipse.
 
 ##Conclusion
 
