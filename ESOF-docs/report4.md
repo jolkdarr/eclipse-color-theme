@@ -66,7 +66,7 @@ This issue depicts a bug where the color bracket is ignored, and it is this bug 
 ![Bug](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/bug.png)
 
 
-While waiting for more information, we tried to fix [Always Bold issue] (https://github.com/eclipse-color-theme/eclipse-color-theme/issues/95). While debugging we didn't find a problem with the code, so we came to the conclusion it's a compatibility problem and that probably "Interface IEclipsePreferences" class do not fully work anymore with the more recent builds of eclipse.
+While waiting for more information, we tried to fix [Always Bold issue] (https://github.com/eclipse-color-theme/eclipse-color-theme/issues/95). While debugging we didn't find a problem with the code, so we came to the conclusion it's a compatibility problem and that probably "Interface IEclipsePreferences" class (from the eclipse API) do not fully work anymore with the more recent builds of eclipse.
 
 ##Conclusion
 
