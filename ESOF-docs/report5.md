@@ -1,3 +1,5 @@
+Feature: https://github.com/eclipse-color-theme/eclipse-color-theme/issues/232
+
 #Software Maintenance/Evolution
 ![Eclipse-Color-Theme](http://p2.pdt-extensions.org/images/colorthemes/screenshot.png)
 Team and contact:
@@ -7,6 +9,17 @@ Team and contact:
 * Rita Carvalho - up201304918@fe.up.pt
 
 ##Introduction
+
+This report aims to describe the development of a new feature, exposing it's development process from it's identification, the identification of the components that implement the feature, and the submission by a pull request of the feature.
+
+##Identification of a feature
+
+Eclipse Color Theme has issues in its github repository that represent hints of features to implement and some bugs that have been detected throughout the development process. In addition to this repository, Eclipse Color Theme has a website that allows us to develop new themes to add to the project. It was in the repository issues that we found a feature that we found accessible in terms of complexity, given the time available, and quite opportune.
+The issue we chose was//TODO
+
+##Identifying components that implement the feature
+
+
 
 
 The goal of this last assignment is to evolve a feature in the selected project and document how the process taken to evolve the feature (that is, document the change impact analysis and feature evolution)
