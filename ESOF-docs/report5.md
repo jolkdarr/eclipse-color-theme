@@ -10,7 +10,25 @@ Team and contact:
 
 ##Introduction
 
-This report aims to describe the development of a new feature, exposing it's development process from it's identification, the identification of the components that implement the feature, and the submission by a pull request of the feature.
+This report aims to discuss the Software Maintainability according SIG metrics and to describe the development of a new feature, exposing it's development process from it's identification, the identification of the components that implement the feature, and the submission by a pull request of the feature.
+
+##Software Maintainability
+
+According the report [Better Code Hub](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/Better%20Code%20Hub.pdf) the compliance of the project Eclipse Color Theme is 6 in 10. The project failed in the next metrics:
+
+* Write Short Units of Code
+* Write Code Once
+* Keep Architecture Components Balanced
+* Automate Tests
+
+Writing small units of code makes it easy to understand, reuse and make code easy to test. According to the report, when writing new units, we don't should let them grow above 15 lines of code and, when it grows, we should slitting them into smaller units. This project failes in this metric because we have one block with more than 60 lines of code, 4 blocks with more than 30 lines of code which difficult the understanding of code and the test of it. This metric explain the difficulty by our team in understandind the project.
+
+The project failes in the metric Write Code Once because we have multiple duplicated blocks of code and this duplication forces the bugs to be fixed in multiples places and this is inefficient and error prone.
+
+Keep the Architecture Componentes Balance begin to balancing the number and relative size of the components to make easier to locate code. In this project we have only one component where we should be between 2 and 12, so we can't compare the size of the components. A way to improve this balanced is organising the components based on functionality and divide the project code into components.
+
+Once this project is a small system we should have at least some test code and one assertion to make the development more predictable and less risky. Once the Eclipse Color Theme is a open source project that uses github, a simple way to improve the metric of Automate Tests is to synchronized the repository of this project from Github with [Travis CI] (https://travis-ci.org).
+
 
 ##Identification of a feature
 
