@@ -1,4 +1,5 @@
-Feature: https://github.com/eclipse-color-theme/eclipse-color-theme/issues/232
+Feature: ???
+How did you locate the parts in the source code that needed to be modified ????
 
 #Software Maintenance/Evolution
 ![Eclipse-Color-Theme](http://p2.pdt-extensions.org/images/colorthemes/screenshot.png)
@@ -29,24 +30,25 @@ Keep the Architecture Componentes Balance begin to balancing the number and rela
 
 Once this project is a small system we should have at least some test code and one assertion to make the development more predictable and less risky. Once the Eclipse Color Theme is a open source project that uses github, a simple way to improve the metric of Automate Tests is to synchronized the repository of this project from Github with [Travis CI] (https://travis-ci.org).
 
-
 ##Identification of a feature
 
-Eclipse Color Theme has issues in its github repository that represent hints of features to implement and some bugs that have been detected throughout the development process. In addition to this repository, Eclipse Color Theme has a website that allows us to develop new themes to add to the project. It was in the repository issues that we found a feature that we found accessible in terms of complexity, given the time available, and quite opportune.
-The issue we chose was//TODO
+Eclipse Color Theme has issues in it's github repository that represent hints of features to implement and some bugs that have been detected throughout the development process. In addition to this repository, Eclipse Color Theme has a website that allows us to develop new themes to add to the project. And with the help of the 'Better Code Hub' we can see where this project should be improved.
+Saying this, the feature we decided to implement was //TODO because it's acessible in terms of complexity and given the time available, this feature is the most opportune.
 
 ##Identifying components that implement the feature
 
+//TODO
 
+##Pull request
 
+After we developd the feature chosen above, the team submit a pull request to the [Eclipse Color Theme Repository] (https://github.com/eclipse-color-theme/eclipse-color-theme) and we are waiting for aprove of the project owner.
 
-The goal of this last assignment is to evolve a feature in the selected project and document how the process taken to evolve the feature (that is, document the change impact analysis and feature evolution)
+//INCLUIR IMAGEM E LINK DO PULL REQUEST
 
-In particular, this report should discuss the following
+##Conclusion
 
-Discuss Software Maintainability using the SIG metrics (plus add the badge to your .md file). Students should contact the recitations professor in order to be added to the ESOF organization to be able to automatically compute the metrics of interest using the service https://bettercodehub.com/. See the pdf with an example of a report of the interesting metrics and a description of what they represent. 
-Grade: 4pts
-Report evolution process (change impact analysis and implementation)
-Grade: 12pts
-Link to pull request
-Grade: 4pts
+//TODO
+
+##Contribuition of the team members
+
+we feel that the variation between different people and their work doesn't warrant an unalike division of the contribution, therefore, we also apply 25% to each individual member of the team.
