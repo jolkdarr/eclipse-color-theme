@@ -45,7 +45,7 @@ After we developd the feature chosen above, the team submit a pull request to th
 
 //INCLUIR IMAGEM E LINK DO PULL REQUEST
 
-![PullRequest]()
+![PullRequest](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/pull.png)
 
 https://github.com/eclipse-color-theme/eclipse-color-theme/pull/256
 
