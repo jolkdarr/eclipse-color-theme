@@ -41,13 +41,12 @@ Saying this, the feature we decided to implement was //TODO because it's acessib
 
 ##Pull request
 
-After we developd the feature chosen above, the team submit a pull request to the [Eclipse Color Theme Repository] (https://github.com/eclipse-color-theme/eclipse-color-theme) and we are waiting for aprove of the project owner.
+After we developd the feature chosen above, the team submit a [Pull request] (https://github.com/eclipse-color-theme/eclipse-color-theme/pull/256) to the [Eclipse Color Theme Repository] (https://github.com/eclipse-color-theme/eclipse-color-theme) and we are waiting for aprove of the project owner.
 
 //INCLUIR IMAGEM E LINK DO PULL REQUEST
 
 ![PullRequest](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/pull.png)
 
-https://github.com/eclipse-color-theme/eclipse-color-theme/pull/256
 
 ##Conclusion
 
