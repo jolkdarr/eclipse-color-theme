@@ -1,6 +1,3 @@
-Feature: ???
-How did you locate the parts in the source code that needed to be modified ????
-
 #Software Maintenance/Evolution
 ![Eclipse-Color-Theme](http://p2.pdt-extensions.org/images/colorthemes/screenshot.png)
 Team and contact:
