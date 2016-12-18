@@ -32,18 +32,37 @@ Once this project is a small system we should have at least some test code and o
 
 ##Identification of a feature
 
-Eclipse Color Theme has issues in it's github repository that represent hints of features to implement and some bugs that have been detected throughout the development process. In addition to this repository, Eclipse Color Theme has a website that allows us to develop new themes to add to the project. And with the help of the 'Better Code Hub' we can see where this project should be improved.
-Saying this, the feature we decided to implement was //TODO because it's acessible in terms of complexity and given the time available, this feature is the most opportune.
+Eclipse Color Theme has issues in it's github repository that represent hints of features to implement and some bugs that have been detected throughout the development process. In addition to this repository, Eclipse Color Theme has a website that allows us to develop new themes to add to the project. 
+We saw that we coulnd't delete imported themes one by one, to do that we needed to restore to the default themes and import again all the themes except the one we wanted to delete.
 
 ##Identifying components that implement the feature
 
-//TODO
+After analysing the code, we identified the code responsible from saving and showing all the themes that the plugin contains, and the code responsible for saving and reading the thems.
+
+- [ColorThemeManager.java](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/src/com/github/eclipsecolortheme/ColorThemeManager.java)
+
+In this file we find the implementation of the ColorThemeManager class, where it manages the themes. 
+
+- [ColorThemePreferencePage.java]https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/src/com/github/eclipsecolortheme/preferences/ColorThemePreferencePage.java)
+
+In this file we find the implementation of the preferences page, the one that is show to the user that has the options to apply and import themes.
+
+
+##Evolution of the feature
+
+When analysing the code, we found that the default themes comes bundled and are saved in the plugin saved preferences and theres isn't direct access to them, but the imported themes are stored in a different place.
+The imported themes are read and then the plugin copies all the .xml file converts it to a string and stores.
+There isn't a direct way to access or know which one of the themes is the one we want, so we search for each stored theme, extract the .xml converted to string theme, search for the name, and if it is the one, it deletes the theme and removes theme from the themes listing. 
+
+We added a tag to imported themes, to know which theme is imported and which one is default, and a button to delete the theme.
+
+Result below:
+
 
 ##Pull request
 
 After we developd the feature chosen above, the team submit a [Pull request] (https://github.com/eclipse-color-theme/eclipse-color-theme/pull/256) to the [Eclipse Color Theme Repository] (https://github.com/eclipse-color-theme/eclipse-color-theme) and we are waiting for aprove of the project owner.
 
-//INCLUIR IMAGEM E LINK DO PULL REQUEST
 
 ![PullRequest](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/pull.png)
 
