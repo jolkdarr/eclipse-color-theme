@@ -67,7 +67,8 @@ After we developd the feature chosen above, the team submit a [Pull request] (ht
 
 ##Conclusion
 
-//TODO
+In conclusion we feel like the project sins in some poor decisions of the owners and developers, even though is a useful and successful plugin for eclipse , has some problems in the architecture and organization of the code making it hard for a long term maintainability. The correction of bugs and implementation of new features is therefore harder than it should be. 
+Also the project seems to be given no attention at the moment so contributing is almost impossible.
 
 ##Contribuition of the team members
 
