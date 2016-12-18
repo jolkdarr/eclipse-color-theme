@@ -43,7 +43,7 @@ After analysing the code, we identified the code responsible from saving and sho
 
 In this file we find the implementation of the ColorThemeManager class, where it manages the themes. 
 
-- [ColorThemePreferencePage.java]https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/src/com/github/eclipsecolortheme/preferences/ColorThemePreferencePage.java)
+- [ColorThemePreferencePage.java](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/src/com/github/eclipsecolortheme/preferences/ColorThemePreferencePage.java)
 
 In this file we find the implementation of the preferences page, the one that is show to the user that has the options to apply and import themes.
 
@@ -57,6 +57,7 @@ There isn't a direct way to access or know which one of the themes is the one we
 We added a tag to imported themes, to know which theme is imported and which one is default, and a button to delete the theme.
 
 Result below:
+![Feature](https://github.com/Miridinia/eclipse-color-theme/blob/master/ESOF-docs/Resources/result.png)
 
 
 ##Pull request
